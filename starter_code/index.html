@@ -18,7 +18,7 @@
 
 <body>
   <nav>
-    <div>
+    <div class="nav-principal">
       <img src="./images/slack-logo.png" alt="Slack logo" />
 
       <ul>
@@ -37,21 +37,21 @@
       </ul>
     </div>
 
-    <div>
+    <div class="nav-botones">
       <button>
         <img src="./images/icon-search.png" alt="Search icon">
       </button>
 
-      <button>
+      <button id="burger-button">
         <img src="./images/icon-menu.png" alt="Menu icon">
       </button>
 
-      <ul hidden>
+      <ul id="nav-botones-ul" hidden>
         <li>
           <a href="#">Sign in</a>
         </li>
         <li>
-          <a href="#">Try for free</a>
+          <a id="anchor-try" href="#">Try for free</a>
         </li>
       </ul>
     </div>
@@ -61,12 +61,12 @@
     <div>
       <h1>Great teamwork starts with a digital HQ</h1>
 
-      <p>Slack is free to try for as long as you'd like.</p>
+      <p><spam>Slack is free to try</spam> for as long as you'd like.</p>
 
-      <div>
-        <button>Sign up with email</button>
+      <div class="header-div-buttons">
+        <button id="header-button1">Sign up with email</button>
 
-        <button>
+        <button id="header-button2">
           <img src="./images/logo-google.png" alt="Google logo" />
           <span>Sign up with Google</span>
         </button>
@@ -74,27 +74,30 @@
 
     </div>
 
-    <div>
+    <div class="header-image">
       <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
     </div>
   </header>
 
   <main>
-    <section>
+    <section id="section-trust">
       <p>Trusted by companies all over the world</p>
 
-      <div>
+      <div id="section-trust-images1">
         <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
         <img src="./images/logo-nasa.png" alt="NASA logo" />
         <img src="./images/logo-uber.png" alt="Uber logo" />
         <img src="./images/logo-target.png" alt="Target logo" />
+      </div>
+      <div id="section-trust-images2">
+        
         <img src="./images/logo-nyt.png" alt="New York Times logo" />
         <img src="./images/logo-spotify.png" alt="Spotify logo" />
       </div>
 
     </section>
 
-    <section>
+    <section id="section-bring">
       <div>
         <img src="./images/connectedness-mobile.png" alt="connectedness" />
       </div>
@@ -108,12 +111,12 @@
         </p>
 
         <a href="#">
-          <span>Learn more about channels</span>
+          <span>Learn more about channels → </span>
         </a>
       </div>
     </section>
 
-    <section>
+    <section id="section-choose">
       <div>
         <h2>Choose how you want to work</h2>
         <p>
@@ -123,7 +126,7 @@
         </p>
 
         <a href="#">
-          <span>Learn more about flexible communication</span>
+          <span>Learn more about flexible communication →</span>
         </a>
       </div>
 
@@ -132,7 +135,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="section-move">
       <div>
         <img src="./images/speed-mobile.png" alt="speed" />
       </div>
@@ -145,24 +148,24 @@
         </p>
 
         <a href="#">
-          <span>Learn more about the Slack platform</span>
+          <span>Learn more about the Slack platform →</span>
         </a>
       </div>
     </section>
 
 
-    <section>
+    <section id="section-teams">
       <h3>Teams large and small rely on Slack</h3>
       <p>Slack securely scales up to support collaboration at the world’s biggest companies.</p>
 
-      <div>
-        <button>Meet Slack for enterprise</button>
-        <button>Talk to sales</button>
+      <div id="section-teams-buttons">
+        <button id="section-teams-button1">Meet Slack for enterprise</button>
+        <button id="section-teams-button2">Talk to sales</button>
       </div>
 
       <ul>
         <li>
-          <p><span>85%</span></p>
+          <p class="section-teams-numeros"><span>85%</span></p>
           <p>
             of users say Slack has improved communication
             <sup>*</sup>
@@ -170,7 +173,7 @@
         </li>
 
         <li>
-          <p><span>86%</span></p>
+          <p class="section-teams-numeros"><span>86%</span></p>
           <p>
             feel their ability to work remotely has improved has improved
             <sup>*</sup>
@@ -178,20 +181,21 @@
         </li>
 
         <li>
-          <p><span>88%</span></p>
+          <p class="section-teams-numeros"><span>88%</span></p>
           <p>
             feel more connected to their teams*
             <sup>*</sup>
           </p>
         </li>
       </ul>
+      <p id="section-teams-final">Weighted average. Based on 2.707 survey...(no sigo pero para que salga)</p>
     </section>
 
-    <section>
+    <section id="section-welcome">
       <h3>Welcome to your new digital HQ</h3>
 
-      <button>Try for free</button>
-      <button>Talk to sales</button>
+      <button id="section-wellcome-button1">Try for free</button>
+      <button id="section-wellcome-button2">Talk to sales</button>
     </section>
 
   </main>
